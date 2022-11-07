@@ -56,11 +56,22 @@
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title></title>
+      <link href="/css/%E5%AF%BC%E8%88%AA%E6%A0%8F%E5%B1%85%E4%B8%AD.css"/>
+      <url>/css/%E5%AF%BC%E8%88%AA%E6%A0%8F%E5%B1%85%E4%B8%AD.css</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[#nav .menus_items {    /* display: inline; 这个带不带都可以，本来就是inline */    position: absolute;    width: fit-content;    left: 50%;    transform: translateX(-50%);}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/%E6%A0%87%E7%AD%BE%E6%A0%B7%E5%BC%8F.css"/>
+      <url>/css/%E6%A0%87%E7%AD%BE%E6%A0%B7%E5%BC%8F.css</url>
+      
+        <content type="html"><![CDATA[/* 标签 */#aside-content .card-tag-cloud a {    border: 1px solid;    line-height: 1.5;    border-radius: 6px;    margin: 3px;    padding: 0 5px;}.tag-cloud-list a {    border: 1px solid;    line-height: 1.5;    border-radius: 6px;    padding: 5px 15px;    font-size: 1.2rem;    margin: 5px;}]]></content>
       
     </entry>
     
@@ -70,6 +81,17 @@
       <title>link</title>
       <link href="/link/index.html"/>
       <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
