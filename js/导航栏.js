@@ -1,0 +1,1 @@
+"" === GLOBAL_CONFIG_SITE.title.replace("宝藏彬少", "") ? document.getElementById("page-name-text").style.display = "none" : document.querySelector("#page-name-text>span").innerHTML = document.title.split(" |宝藏彬少")[0];
